@@ -21,6 +21,7 @@ html {
 
 	background-image: url('mechanical-house.svg');
 	font-family: 'Poppins',sans-serif; 
+	background-repeat: no-repeat;
 
 }
 
