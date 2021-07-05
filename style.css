@@ -1,0 +1,105 @@
+@keyframes wheelHueColor {
+    from, to { color: hsl(324, 70%, 45%); }
+    10%      { color: hsl(360, 65%, 45%); }
+    20%      { color: hsl( 36, 80%, 45%); }
+    30%      { color: hsl( 72, 75%, 35%); }
+    40%      { color: hsl(108, 65%, 35%); }
+    50%      { color: hsl(144, 75%, 35%); }
+    60%      { color: hsl(180, 75%, 35%); }
+    70%      { color: hsl(216, 60%, 45%); }
+    80%      { color: hsl(252, 65%, 50%); }
+    90%      { color: hsl(288, 60%, 40%); }
+}
+
+
+
+
+
+
+
+html {
+
+	background-image: url('mechanical-house.svg');
+	font-family: 'Poppins',sans-serif; 
+
+}
+
+
+
+body {
+
+ margin: 0px;
+ padding : 0px;
+ border: 0px;
+
+}
+
+
+.input {
+
+    opacity: 0.7;
+	width: 600px;
+	height: 30px;
+	border: none;
+	padding: 0px;
+	margin-left: 150px;
+	margin-top: 0px;
+
+}
+
+.titre {
+
+	margin-left: 150px;
+	font-family : 'Poppins', sans-serif ;
+	color: hsl(324, 70%, 45%);
+    animation: wheelHueColor 10s infinite;
+    
+}
+
+.Recherche{
+
+	margin-top: 200px;
+}
+
+.p1{
+   
+   background-color: black;
+   border-top: 3px;
+   border-bottom: 3px;
+   border-left: 3px;
+   border-right: 3px;
+}
+
+
+
+.p2{ 
+
+   background-color: black;
+   border-top: 3px;
+   border-bottom: 3px;
+   border-left: 3px;
+   border-right: 3px;
+
+
+}
+
+
+br {
+
+	margin-bottom: 5px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+}
+
+.p2:hover {
+	background-color: white;
+}
+
+.p1:hover {
+	background-color: white;
+}
+
+
+
+
